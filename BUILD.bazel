@@ -1,0 +1,5 @@
+load("@rules_r//R:defs.bzl", "r_markdown")
+
+# TODO(@waflores) need to create a pandoc that does this:
+# run: Rscript -e 'bookdown::render_book("index.Rmd")'
+r_markdown(name="website", src="index.Rmd", render_function="bookdown::render_book", output_dir_argument="_book")

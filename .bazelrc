@@ -1,0 +1,2 @@
+# Not ready for Bazel Modules yet
+--noenable_bzlmod

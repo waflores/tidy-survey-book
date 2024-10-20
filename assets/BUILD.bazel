@@ -1,0 +1,3 @@
+exports_files(
+    ["hero-image.html"]
+)
