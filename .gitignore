@@ -34,3 +34,4 @@ latex/before_body_ded.tex
 bazel-*
 # ignore vscode subfolder
 .vscode
+Module.bazel.lock
